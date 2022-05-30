@@ -15,16 +15,51 @@
         android:text="다른 화면으로 이동" />
 
     <EditText
-        android:id="@+id/messageEdt"
+        android:id="@+id/messageEdt1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="전달할 내용 입력" />
+        android:hint="전달할 내용 입력1" />
+
+    <EditText
+        android:id="@+id/messageEdt2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="전달할 내용 입력2" />
 
     <Button
         android:id="@+id/sendMessageBtn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="메세지를 다른 화면으로 전달" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="닉네임"
+        android:layout_marginTop="17dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="봉주르"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="닉네임 변경"/>
+    </LinearLayout>
+
 
 
 </LinearLayout>

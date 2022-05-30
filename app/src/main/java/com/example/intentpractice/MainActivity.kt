@@ -12,9 +12,12 @@ class MainActivity : AppCompatActivity() {
 
         sendMessageBtn.setOnClickListener {
 
-            val inputMessage = messageEdt.text.toString()
+            val inputMessage1 = messageEdt1.text.toString()
+            val inputMessage2 = messageEdt2.text.toString()
             val myIntent = Intent(this, MessageActivity::class.java)
-            myIntent.putExtra("message", inputMessage )
+            myIntent.putExtra("message1", inputMessage1 )
+            myIntent.putExtra("message2", inputMessage2 )
+
             startActivity(myIntent)
 
 
